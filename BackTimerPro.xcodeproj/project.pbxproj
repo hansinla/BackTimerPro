@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641314A2191BFAAB007C295F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641314A1191BFAAB007C295F /* Cocoa.framework */; };
+		641314AC191BFAAB007C295F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641314AA191BFAAB007C295F /* InfoPlist.strings */; };
+		641314AE191BFAAB007C295F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641314AD191BFAAB007C295F /* main.m */; };
+		641314B2191BFAAB007C295F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 641314B0191BFAAB007C295F /* Credits.rtf */; };
+		641314B5191BFAAB007C295F /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641314B4191BFAAB007C295F /* BTAppDelegate.m */; };
+		641314B8191BFAAB007C295F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641314B6191BFAAB007C295F /* MainMenu.xib */; };
+		641314BA191BFAAB007C295F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641314B9191BFAAB007C295F /* Images.xcassets */; };
+		641314C1191BFAAB007C295F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641314C0191BFAAB007C295F /* XCTest.framework */; };
+		641314C2191BFAAB007C295F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641314A1191BFAAB007C295F /* Cocoa.framework */; };
+		641314CA191BFAAB007C295F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641314C8191BFAAB007C295F /* InfoPlist.strings */; };
+		641314CC191BFAAB007C295F /* BackTimerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 641314CB191BFAAB007C295F /* BackTimerProTests.m */; };
+		64BF823D1921648F001C41CA /* BTLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF823C1921648F001C41CA /* BTLineItem.m */; };
+		64ECC1161922BD65001E507A /* BTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 64ECC1151922BD65001E507A /* BTDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641314C3191BFAAB007C295F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64131496191BFAAB007C295F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6413149D191BFAAB007C295F;
+			remoteInfo = BackTimerPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6413149E191BFAAB007C295F /* BackTimerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackTimerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641314A1191BFAAB007C295F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		641314A4191BFAAB007C295F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		641314A5191BFAAB007C295F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		641314A6191BFAAB007C295F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		641314A9191BFAAB007C295F /* BackTimerPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackTimerPro-Info.plist"; sourceTree = "<group>"; };
+		641314AB191BFAAB007C295F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		641314AD191BFAAB007C295F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		641314AF191BFAAB007C295F /* BackTimerPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackTimerPro-Prefix.pch"; sourceTree = "<group>"; };
+		641314B1191BFAAB007C295F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		641314B3191BFAAB007C295F /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		641314B4191BFAAB007C295F /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		641314B7191BFAAB007C295F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		641314B9191BFAAB007C295F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		641314BF191BFAAB007C295F /* BackTimerProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackTimerProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641314C0191BFAAB007C295F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		641314C7191BFAAB007C295F /* BackTimerProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackTimerProTests-Info.plist"; sourceTree = "<group>"; };
+		641314C9191BFAAB007C295F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		641314CB191BFAAB007C295F /* BackTimerProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackTimerProTests.m; sourceTree = "<group>"; };
+		64BF823B1921648F001C41CA /* BTLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLineItem.h; sourceTree = "<group>"; };
+		64BF823C1921648F001C41CA /* BTLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLineItem.m; sourceTree = "<group>"; };
+		64ECC1141922BD65001E507A /* BTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDataSource.h; sourceTree = "<group>"; };
+		64ECC1151922BD65001E507A /* BTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6413149B191BFAAB007C295F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641314A2191BFAAB007C295F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641314BC191BFAAB007C295F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641314C2191BFAAB007C295F /* Cocoa.framework in Frameworks */,
+				641314C1191BFAAB007C295F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64131495191BFAAB007C295F = {
+			isa = PBXGroup;
+			children = (
+				641314A7191BFAAB007C295F /* BackTimerPro */,
+				641314C5191BFAAB007C295F /* BackTimerProTests */,
+				641314A0191BFAAB007C295F /* Frameworks */,
+				6413149F191BFAAB007C295F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6413149F191BFAAB007C295F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6413149E191BFAAB007C295F /* BackTimerPro.app */,
+				641314BF191BFAAB007C295F /* BackTimerProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641314A0191BFAAB007C295F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641314A1191BFAAB007C295F /* Cocoa.framework */,
+				641314C0191BFAAB007C295F /* XCTest.framework */,
+				641314A3191BFAAB007C295F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		641314A3191BFAAB007C295F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641314A4191BFAAB007C295F /* AppKit.framework */,
+				641314A5191BFAAB007C295F /* CoreData.framework */,
+				641314A6191BFAAB007C295F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		641314A7191BFAAB007C295F /* BackTimerPro */ = {
+			isa = PBXGroup;
+			children = (
+				641314B3191BFAAB007C295F /* BTAppDelegate.h */,
+				641314B4191BFAAB007C295F /* BTAppDelegate.m */,
+				641314B6191BFAAB007C295F /* MainMenu.xib */,
+				64ECC1141922BD65001E507A /* BTDataSource.h */,
+				64ECC1151922BD65001E507A /* BTDataSource.m */,
+				64BF823B1921648F001C41CA /* BTLineItem.h */,
+				64BF823C1921648F001C41CA /* BTLineItem.m */,
+				641314B9191BFAAB007C295F /* Images.xcassets */,
+				641314A8191BFAAB007C295F /* Supporting Files */,
+			);
+			path = BackTimerPro;
+			sourceTree = "<group>";
+		};
+		641314A8191BFAAB007C295F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				641314A9191BFAAB007C295F /* BackTimerPro-Info.plist */,
+				641314AA191BFAAB007C295F /* InfoPlist.strings */,
+				641314AD191BFAAB007C295F /* main.m */,
+				641314AF191BFAAB007C295F /* BackTimerPro-Prefix.pch */,
+				641314B0191BFAAB007C295F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		641314C5191BFAAB007C295F /* BackTimerProTests */ = {
+			isa = PBXGroup;
+			children = (
+				641314CB191BFAAB007C295F /* BackTimerProTests.m */,
+				641314C6191BFAAB007C295F /* Supporting Files */,
+			);
+			path = BackTimerProTests;
+			sourceTree = "<group>";
+		};
+		641314C6191BFAAB007C295F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				641314C7191BFAAB007C295F /* BackTimerProTests-Info.plist */,
+				641314C8191BFAAB007C295F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6413149D191BFAAB007C295F /* BackTimerPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641314CF191BFAAB007C295F /* Build configuration list for PBXNativeTarget "BackTimerPro" */;
+			buildPhases = (
+				6413149A191BFAAB007C295F /* Sources */,
+				6413149B191BFAAB007C295F /* Frameworks */,
+				6413149C191BFAAB007C295F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackTimerPro;
+			productName = BackTimerPro;
+			productReference = 6413149E191BFAAB007C295F /* BackTimerPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641314BE191BFAAB007C295F /* BackTimerProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641314D2191BFAAB007C295F /* Build configuration list for PBXNativeTarget "BackTimerProTests" */;
+			buildPhases = (
+				641314BB191BFAAB007C295F /* Sources */,
+				641314BC191BFAAB007C295F /* Frameworks */,
+				641314BD191BFAAB007C295F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641314C4191BFAAB007C295F /* PBXTargetDependency */,
+			);
+			name = BackTimerProTests;
+			productName = BackTimerProTests;
+			productReference = 641314BF191BFAAB007C295F /* BackTimerProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64131496191BFAAB007C295F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hans van Riet";
+				TargetAttributes = {
+					641314BE191BFAAB007C295F = {
+						TestTargetID = 6413149D191BFAAB007C295F;
+					};
+				};
+			};
+			buildConfigurationList = 64131499191BFAAB007C295F /* Build configuration list for PBXProject "BackTimerPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64131495191BFAAB007C295F;
+			productRefGroup = 6413149F191BFAAB007C295F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6413149D191BFAAB007C295F /* BackTimerPro */,
+				641314BE191BFAAB007C295F /* BackTimerProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6413149C191BFAAB007C295F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641314AC191BFAAB007C295F /* InfoPlist.strings in Resources */,
+				641314BA191BFAAB007C295F /* Images.xcassets in Resources */,
+				641314B2191BFAAB007C295F /* Credits.rtf in Resources */,
+				641314B8191BFAAB007C295F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641314BD191BFAAB007C295F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641314CA191BFAAB007C295F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6413149A191BFAAB007C295F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BF823D1921648F001C41CA /* BTLineItem.m in Sources */,
+				641314B5191BFAAB007C295F /* BTAppDelegate.m in Sources */,
+				64ECC1161922BD65001E507A /* BTDataSource.m in Sources */,
+				641314AE191BFAAB007C295F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641314BB191BFAAB007C295F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641314CC191BFAAB007C295F /* BackTimerProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641314C4191BFAAB007C295F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6413149D191BFAAB007C295F /* BackTimerPro */;
+			targetProxy = 641314C3191BFAAB007C295F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		641314AA191BFAAB007C295F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641314AB191BFAAB007C295F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		641314B0191BFAAB007C295F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641314B1191BFAAB007C295F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		641314B6191BFAAB007C295F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641314B7191BFAAB007C295F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		641314C8191BFAAB007C295F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641314C9191BFAAB007C295F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641314CD191BFAAB007C295F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		641314CE191BFAAB007C295F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		641314D0191BFAAB007C295F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackTimerPro/BackTimerPro-Prefix.pch";
+				INFOPLIST_FILE = "BackTimerPro/BackTimerPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		641314D1191BFAAB007C295F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackTimerPro/BackTimerPro-Prefix.pch";
+				INFOPLIST_FILE = "BackTimerPro/BackTimerPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		641314D3191BFAAB007C295F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackTimerPro.app/Contents/MacOS/BackTimerPro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackTimerPro/BackTimerPro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackTimerProTests/BackTimerProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		641314D4191BFAAB007C295F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackTimerPro.app/Contents/MacOS/BackTimerPro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackTimerPro/BackTimerPro-Prefix.pch";
+				INFOPLIST_FILE = "BackTimerProTests/BackTimerProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64131499191BFAAB007C295F /* Build configuration list for PBXProject "BackTimerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641314CD191BFAAB007C295F /* Debug */,
+				641314CE191BFAAB007C295F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641314CF191BFAAB007C295F /* Build configuration list for PBXNativeTarget "BackTimerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641314D0191BFAAB007C295F /* Debug */,
+				641314D1191BFAAB007C295F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641314D2191BFAAB007C295F /* Build configuration list for PBXNativeTarget "BackTimerProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641314D3191BFAAB007C295F /* Debug */,
+				641314D4191BFAAB007C295F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64131496191BFAAB007C295F /* Project object */;
+}
