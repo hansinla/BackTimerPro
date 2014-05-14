@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
@@ -678,7 +678,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="1200" height="800"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField toolTip="Time used to perform all calculations." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Phc-ea-nxK">
+                    <textField toolTip="Time used to perform all calculations." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="Phc-ea-nxK">
                         <rect key="frame" x="872" y="632" width="300" height="81"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00:00:00" drawsBackground="YES" id="idg-Vj-cM5">
@@ -688,7 +688,7 @@
                         </textFieldCell>
                         <accessibility description="Master Clock"/>
                     </textField>
-                    <textField toolTip="Time used to perform all calculations." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iHV-G0-Bh2">
+                    <textField toolTip="Time used to perform all calculations." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="iHV-G0-Bh2">
                         <rect key="frame" x="957" y="723" width="130" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="Master Clock" id="KNJ-Dj-orY">
@@ -697,7 +697,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button toolTip="Click or hit the Enter key to jump to the next item in your rundown." fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ofB-7o-GAk">
+                    <button toolTip="Click or hit the Enter key to jump to the next item in your rundown." id="ofB-7o-GAk">
                         <rect key="frame" x="955" y="20" width="150" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" title="TAKE NEXT" bezelStyle="shadowlessSquare" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="64Q-qV-tIG">
@@ -708,14 +708,14 @@ DQ
 </string>
                         </buttonCell>
                     </button>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="bHG-bW-Bsg">
+                    <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="bHG-bW-Bsg">
                         <rect key="frame" x="845" y="349" width="354" height="172"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="0.0" y="0.0" width="354" height="172"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField toolTip="Indicates remaining item time." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l7U-wg-Rm7">
+                                <textField toolTip="Indicates remaining item time." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="l7U-wg-Rm7">
                                     <rect key="frame" x="111" y="123" width="130" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="Item Remaining" id="FDM-gQ-bch">
@@ -724,7 +724,7 @@ DQ
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField toolTip="Indicates remaining item time." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jtQ-2b-B8P">
+                                <textField toolTip="Indicates remaining item time." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="jtQ-2b-B8P">
                                     <rect key="frame" x="26" y="32" width="300" height="81"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00:00:00" drawsBackground="YES" id="Ayq-i4-LfJ">
@@ -733,7 +733,7 @@ DQ
                                         <color key="backgroundColor" name="windowFrameColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="1ro-gw-pEE">
+                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="1ro-gw-pEE">
                                     <rect key="frame" x="18" y="159" width="316" height="5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
@@ -745,14 +745,14 @@ DQ
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="ctV-fi-WPy">
+                    <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="ctV-fi-WPy">
                         <rect key="frame" x="845" y="191" width="354" height="172"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="0.0" y="0.0" width="354" height="172"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField toolTip="Indicates remaining time till off the air time." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lrw-JF-Ady">
+                                <textField toolTip="Indicates remaining time till off the air time." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="Lrw-JF-Ady">
                                     <rect key="frame" x="111" y="123" width="132" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="Show Remaining" id="Jjx-Gg-10I">
@@ -761,7 +761,7 @@ DQ
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField toolTip="Indicates remaining time till off the air time." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u40-qF-Kgz">
+                                <textField toolTip="Indicates remaining time till off the air time." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="u40-qF-Kgz">
                                     <rect key="frame" x="26" y="32" width="300" height="81"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00:00:00" drawsBackground="YES" id="kjb-5x-dcW">
@@ -770,7 +770,7 @@ DQ
                                         <color key="backgroundColor" name="windowFrameColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="rNA-Xs-Vaa">
+                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="rNA-Xs-Vaa">
                                     <rect key="frame" x="18" y="159" width="316" height="5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
@@ -782,14 +782,14 @@ DQ
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="jG3-zN-lfs">
+                    <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="jG3-zN-lfs">
                         <rect key="frame" x="845" y="39" width="354" height="172"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="0.0" y="0.0" width="354" height="172"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField toolTip="Indicates if your show runs under (green) or over (red)." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lrs-sH-4L1">
+                                <textField toolTip="Indicates if your show runs under (green) or over (red)." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="lrs-sH-4L1">
                                     <rect key="frame" x="111" y="123" width="130" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="Over / Under" id="YJa-Lr-SCF">
@@ -798,7 +798,7 @@ DQ
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField toolTip="Indicates if your show runs under (green) or over (red)." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4w-YB-HGL">
+                                <textField toolTip="Indicates if your show runs under (green) or over (red)." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="x4w-YB-HGL">
                                     <rect key="frame" x="26" y="32" width="300" height="81"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00:00" drawsBackground="YES" id="BUb-WA-aAU">
@@ -807,7 +807,7 @@ DQ
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </textFieldCell>
                                 </textField>
-                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="P8Y-p5-K1I">
+                                <box autoresizesSubviews="NO" verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="P8Y-p5-K1I">
                                     <rect key="frame" x="18" y="159" width="316" height="5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
@@ -819,21 +819,21 @@ DQ
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="szc-4v-Og9">
+                    <box autoresizesSubviews="NO" title="Box" borderType="line" titlePosition="noTitle" id="szc-4v-Og9">
                         <rect key="frame" x="897" y="531" width="251" height="77"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="249" height="75"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Sse-nx-MtK">
+                                <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="Sse-nx-MtK">
                                     <rect key="frame" x="15" y="-3" width="219" height="47"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <view key="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="219" height="47"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ka9-Rr-eIF">
+                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" id="ka9-Rr-eIF">
                                                 <rect key="frame" x="169" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="jTm-ge-fIH">
@@ -844,7 +844,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="Off Air Time"/>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is supposed to go off the air." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W2P-aj-sO8">
+                                            <textField toolTip="Enter the time your show is supposed to go off the air." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="W2P-aj-sO8">
                                                 <rect key="frame" x="16" y="15" width="69" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Off Air Time" id="zVg-S2-fum">
@@ -854,7 +854,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="Off Air Time"/>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtX-Co-hN0">
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="TtX-Co-hN0">
                                                 <rect key="frame" x="119" y="20" width="9" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title=":" id="4yu-Aa-5NM">
@@ -863,7 +863,7 @@ DQ
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4p-8m-L4A">
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="K4p-8m-L4A">
                                                 <rect key="frame" x="159" y="20" width="9" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title=":" id="ILT-sz-KIB">
@@ -872,7 +872,7 @@ DQ
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oc1-qv-Jlt">
+                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" id="Oc1-qv-Jlt">
                                                 <rect key="frame" x="128" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="2iS-Qc-3hi">
@@ -883,7 +883,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="Off Air Time"/>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cEL-SF-PaW">
+                                            <textField toolTip="Enter the time your show is supposed to go off the air." verticalHuggingPriority="750" id="cEL-SF-PaW">
                                                 <rect key="frame" x="87" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="7OA-QM-O5x">
@@ -899,14 +899,14 @@ DQ
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                     <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </box>
-                                <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="MSr-FK-DPg">
+                                <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="MSr-FK-DPg">
                                     <rect key="frame" x="15" y="31" width="219" height="47"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <view key="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="219" height="47"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5PG-by-GEs">
+                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" id="5PG-by-GEs">
                                                 <rect key="frame" x="169" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="GGS-Dd-QTv">
@@ -917,7 +917,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="On Air Time."/>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is going to be on the air." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JDf-6N-wVz">
+                                            <textField toolTip="Enter the time your show is going to be on the air." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="JDf-6N-wVz">
                                                 <rect key="frame" x="16" y="15" width="69" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="On Air Time" id="CdW-RY-OKr">
@@ -927,7 +927,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="On Air Time."/>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WwN-gW-ilW">
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="WwN-gW-ilW">
                                                 <rect key="frame" x="119" y="20" width="9" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title=":" id="3za-Rk-OGw">
@@ -936,7 +936,7 @@ DQ
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YHB-70-UPS">
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="YHB-70-UPS">
                                                 <rect key="frame" x="159" y="20" width="9" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title=":" id="ADG-mJ-m4q">
@@ -945,7 +945,7 @@ DQ
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e21-s3-D2x">
+                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" id="e21-s3-D2x">
                                                 <rect key="frame" x="128" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="rUS-av-37F">
@@ -956,7 +956,7 @@ DQ
                                                 </textFieldCell>
                                                 <accessibility description="On Air Time."/>
                                             </textField>
-                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49M-oK-91n">
+                                            <textField toolTip="Enter the time your show is going to be on the air." verticalHuggingPriority="750" id="49M-oK-91n">
                                                 <rect key="frame" x="87" y="15" width="30" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="00" drawsBackground="YES" id="Pdl-Bc-4d0">
@@ -977,17 +977,17 @@ DQ
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" horizontalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-qf-eQh">
+                    <box autoresizesSubviews="NO" horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="ejf-qf-eQh">
                         <rect key="frame" x="846" y="12" width="5" height="776"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <font key="titleFont" metaFont="system"/>
                     </box>
-                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXp-v2-qJM">
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="SXp-v2-qJM">
                         <rect key="frame" x="20" y="20" width="796" height="760"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <clipView key="contentView" ambiguous="YES" misplaced="YES" id="tyR-PI-qyb">
+                        <clipView key="contentView" id="tyR-PI-qyb">
                             <rect key="frame" x="1" y="17" width="794" height="742"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -998,7 +998,7 @@ DQ
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn width="80" minWidth="80" maxWidth="80" id="Djl-mS-dbK">
+                                        <tableColumn identifier="itemNumber" width="80" minWidth="80" maxWidth="80" id="Djl-mS-dbK">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Item Number">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -1011,7 +1011,7 @@ DQ
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         </tableColumn>
-                                        <tableColumn width="600" minWidth="600" maxWidth="600" id="oia-4o-xv7">
+                                        <tableColumn identifier="itemDescription" width="600" minWidth="600" maxWidth="600" id="oia-4o-xv7">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Description">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -1024,7 +1024,7 @@ DQ
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         </tableColumn>
-                                        <tableColumn width="105" minWidth="105" maxWidth="105" id="2m5-WW-vC3">
+                                        <tableColumn identifier="itemDuration" width="105" minWidth="105" maxWidth="105" id="2m5-WW-vC3">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Running Time">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -1058,14 +1058,14 @@ DQ
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="dXA-xu-T71">
+                    <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="dXA-xu-T71">
                         <rect key="frame" x="854" y="717" width="100" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CL6-Bs-dFS">
+                                <textField toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." verticalHuggingPriority="750" id="CL6-Bs-dFS">
                                     <rect key="frame" x="18" y="6" width="44" height="26"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="0" drawsBackground="YES" id="Mge-Hq-P3j">
@@ -1080,7 +1080,7 @@ DQ
                                         <outlet property="delegate" destination="Voe-Tx-rLC" id="4ts-hR-bSh"/>
                                     </connections>
                                 </textField>
-                                <stepper toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="13" placeholderIntrinsicHeight="30" translatesAutoresizingMaskIntoConstraints="NO" id="FQ3-Ui-Q7A">
+                                <stepper toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="13" placeholderIntrinsicHeight="30" id="FQ3-Ui-Q7A">
                                     <rect key="frame" x="67" y="-1" width="19" height="35"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="-30" id="jaR-jA-FxQ"/>
@@ -1088,7 +1088,7 @@ DQ
                                         <binding destination="Voe-Tx-rLC" name="value" keyPath="tapeDelayValue" id="5oy-Lw-UDG"/>
                                     </connections>
                                 </stepper>
-                                <textField toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vQZ-9z-Na7">
+                                <textField toolTip="If your show has a tape delay, enter the amount of delay here (always a negative value)." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="vQZ-9z-Na7">
                                     <rect key="frame" x="16" y="33" width="69" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Tape Delay" id="cmL-Gg-k5B">
@@ -1102,14 +1102,14 @@ DQ
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="5qE-KS-NLq">
+                    <box autoresizesSubviews="NO" title="Box" borderType="none" titlePosition="noTitle" id="5qE-KS-NLq">
                         <rect key="frame" x="1083" y="717" width="100" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <stepper toolTip="If your system clock doesn't match the network's clock, adjust your clock here." horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" placeholderIntrinsicWidth="13" placeholderIntrinsicHeight="30" translatesAutoresizingMaskIntoConstraints="NO" id="XQX-Vg-diz">
+                                <stepper toolTip="If your system clock doesn't match the network's clock, adjust your clock here." horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="13" placeholderIntrinsicHeight="30" id="XQX-Vg-diz">
                                     <rect key="frame" x="67" y="-1" width="19" height="35"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="-60" maxValue="100" id="PMo-q8-VdI"/>
@@ -1117,7 +1117,7 @@ DQ
                                         <binding destination="Voe-Tx-rLC" name="value" keyPath="clockAdjustValue" id="YjP-yE-Fuf"/>
                                     </connections>
                                 </stepper>
-                                <textField identifier="clockAdjust" toolTip="If your system clock doesn't match the network's clock, adjust your clock here." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drp-01-eSl">
+                                <textField identifier="clockAdjust" toolTip="If your system clock doesn't match the network's clock, adjust your clock here." verticalHuggingPriority="750" id="drp-01-eSl">
                                     <rect key="frame" x="18" y="6" width="44" height="26"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="0" drawsBackground="YES" id="spU-IK-Ffh">
@@ -1132,7 +1132,7 @@ DQ
                                         <outlet property="delegate" destination="Voe-Tx-rLC" id="aqi-MF-EQP"/>
                                     </connections>
                                 </textField>
-                                <textField toolTip="If your system clock doesn't match the network's clock, adjust your clock here." horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KV5-4x-YWu">
+                                <textField toolTip="If your system clock doesn't match the network's clock, adjust your clock here." horizontalHuggingPriority="251" verticalHuggingPriority="750" id="KV5-4x-YWu">
                                     <rect key="frame" x="16" y="36" width="69" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Calibration" id="wul-VQ-dzL">
