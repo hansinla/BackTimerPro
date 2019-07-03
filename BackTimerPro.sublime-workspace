@@ -1,0 +1,309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hans/Documents/GitHub/Javascript/objects.js",
+		"/Users/hans/Documents/GitHub/Javascript/Eloquent JS/00_speed_difference.js",
+		"/Users/hans/Documents/GitHub/Javascript/React/src/helloworld.js",
+		"/Users/hans/Documents/GitHub/Javascript/React/build/react.js",
+		"/Users/hans/Documents/GitHub/Javascript/React/build/react-dom.js",
+		"/Users/hans/Documents/GitHub/Javascript/React/build/react-dom-server.min.js",
+		"/Users/hans/Documents/GitHub/Javascript/React/build/react-dom-server.js",
+		"/Users/hans/Documents/GitHub/Javascript/makeARange.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Node.js/streams.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Node.js/socket.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Node.js/persistingdata.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Node.js/express.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Express.js/logger.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Express.js/express.js",
+		"/Users/hans/Documents/GitHub/Javascript/Code Academy/Express.js/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/code-functions-and-strings/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/code-external-data-http/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/code-watchers-digest-loop/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/code-xml-http-request/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/Dependency Injection/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/code-common-directives/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/app.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/Udemy Course/ang.js",
+		"/Users/hans/Documents/GitHub/Javascript/Angular/module.js",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css7/style.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html41/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css6/style.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html40/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html39/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css5/style.css",
+		"/Users/hans/Desktop/timeline.css",
+		"/Users/hans/Desktop/timeline.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css4/style.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html38/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html37/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css3/style.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html35/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/quotes.js/quotes.js",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html34/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html33/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/fetch_weather.js/fetch_weather.js",
+		"/Users/hans/Sites/WEBSITE 2016/portfolio/tictactoe/scripts/montecarlo.js",
+		"/Users/hans/Sites/WEBSITE 2016/portfolio/tictactoe/index.html",
+		"/Users/hans/Sites/WEBSITE 2016/portfolio/calc/index.html",
+		"/Users/hans/Documents/Other/Signature for Mail.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html32/index.html",
+		"/Users/hans/Sites/WEBSITE 2016/portfolio/pomodoro/clock.js",
+		"/Users/hans/Library/Mobile Documents/com~apple~CloudDocs/subscribtions.opml",
+		"/Users/hans/Library/Mobile Documents/com~apple~CloudDocs/subscribtions.txt",
+		"/Users/hans/Desktop/dumpert.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/style.css2/style.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html28/index.html",
+		"/Users/hans/Desktop/isotope.css",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/styles.css8/styles.css",
+		"/Users/hans/Sites/WEBSITE 2016/portfolio/index.html",
+		"/Users/hans/Documents/z_Developer/FreeCodeCamp/Advanced Algorithm Scripting/06_friendlyDates.js",
+		"/Users/hans/Library/Application Support/Sublime Text 3/Packages/User/JS.sublime-build",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html39/news.html",
+		"/Users/hans/Desktop/G1000.pdf",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/SoMe.jpg2/SoMe.jpg",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/work.html28/work.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/reel.html19/reel.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/portfolio.html4/portfolio.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html38/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html27/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/endorsements.html13/endorsements.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/contact.html18/contact.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/awards.html14/awards.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html26/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/robots.txt1/robots.txt",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/robots.txt/robots.txt",
+		"/Users/hans/Desktop/N89084-1fded109.kml",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html25/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html37/news.html",
+		"/Users/hans/Sites/WEBSITE 2016/OLD_NEWS.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html36/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/BOTA.png/BOTA.png",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html24/index.html",
+		"/Users/hans/Desktop/apple_health_export/export.xml",
+		"/Users/hans/Desktop/hans_data.xml",
+		"/Users/hans/Desktop/apple_health_export/clinical-records/Observation-D416E489-4E43-4FF0-AA82-B663819759A3.json",
+		"/Users/hans/Desktop/apple_health_export/clinical-records/Observation-D8EA6DEC-B4EC-4B7F-B2F3-3320D85BAF0B.json",
+		"/Users/hans/Desktop/apple_health_export/clinical-records/Observation-4D6F3D47-A8DC-468D-BB67-5D2CC656BCE2.json",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html35/news.html",
+		"/Users/hans/Desktop/apple_health_export/clinical-records/DiagnosticReport-67650C5E-F69F-4B30-BB07-2FF7A84E516B.json",
+		"/private/etc/cups/cups-files.conf.default",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/404.shtml2/404.shtml",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html34/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html23/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html33/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html32/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html31/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html30/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/IMG_2022.jpg/IMG_2022.jpg",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/work.html26/work.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/reel.html18/reel.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/portfolio.html3/portfolio.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html22/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/endorsements.html12/endorsements.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/contact.html17/contact.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/awards.html13/awards.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html29/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html27/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html28/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/work.html25/work.html",
+		"/Applications/X-Plane 11/Resources/plugins/FlyWithLua/Internals/button_sniffer.lua",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/reel.html17/reel.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html26/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/endorsements.html11/endorsements.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/contact.html16/contact.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/awards.html12/awards.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/portfolio.html2/portfolio.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html21/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/portfolio.html1/portfolio.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/sitemap.xml/sitemap.xml",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/reel.html16/reel.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/reel.html15/reel.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/awards.html11/awards.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/portfolio.html/portfolio.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/contact.html15/contact.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/endorsements.html10/endorsements.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/news.html25/news.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/work.html24/work.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/index.html20/index.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/clips.html14/clips.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/clips.html13/clips.html",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/404.shtml1/404.shtml",
+		"/Users/hans/Library/Application Support/Yummy FTP/Remote Edits/107.180.57.14 Edits/awards.html10/awards.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "BackTimerPro.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
